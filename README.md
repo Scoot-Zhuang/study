@@ -99,3 +99,19 @@ git merge --no-ff -m "merge with no-ff" dev
 	git config --global alias.co checkout
  	git config --global alias.ci commit
  	git config --global alias.br branch
+
+
+设置用户名:
+
+ git config --global user.name "Your Name"
+
+ git config --global user.email you@example.com
+
+删除远程分支:
+
+git push origin :branch-name
+
+冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支
+
+
+chexiao:git checkout —README.md
