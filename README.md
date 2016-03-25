@@ -114,4 +114,7 @@ git push origin :branch-name
 冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支
 
 
+//test git rebase
+master 001
+
 chexiao:git checkout —README.md
